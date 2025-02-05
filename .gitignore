@@ -1,0 +1,31 @@
+# Escludere la cartella del virtual environment (se creata localmente)
+venv/
+env/
+
+# Escludere file di compilazione e cache di Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Escludere dataset e risultati (se contengono dati sensibili o troppo grandi)
+data/
+results/
+
+# Escludere file di log e output temporanei
+*.log
+*.out
+*.tmp
+
+# Escludere configurazioni IDE
+.idea/  # PyCharm
+.vscode/  # VS Code
+*.sublime-workspace
+
+# Escludere file di sistema (Mac e Windows)
+.DS_Store  # MacOS
+Thumbs.db  # Windows
+
+# Escludere immagini Docker (se usi Docker)
+docker-compose.override.yml
+*.dockerfile
